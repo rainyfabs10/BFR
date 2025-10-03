@@ -1,0 +1,941 @@
+proxies:
+- name: 1 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 2 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: quiz.int.vidio.com
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 3 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 4 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: quiz.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 5 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 6 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: quiz.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 7 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: nonton.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: nonton.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: nonton.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 8 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: nonton.vidio.com
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: nonton.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 9 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: nonton.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: nonton.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 10 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: img.email1.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 11 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: img.email1.vidio.com
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 12 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: img.email1.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 13 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: img.email2.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email2.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email2.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 14 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: img.email2.vidio.com
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email2.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 15 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: img.email2.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email2.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 16 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: img.email3.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email3.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email3.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 17 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: img.email3.vidio.com
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email3.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 18 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: img.email3.vidio.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email3.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 19 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: go.appannie.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 20 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: go.appannie.com
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 21 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: go.appannie.com
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 22 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.159.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 23 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.159.243
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 24 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.159.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 25 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.155.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 26 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.155.243
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 27 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.155.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 28 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.156.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 29 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.156.243
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 30 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.156.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 31 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.158.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 32 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.158.243
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 33 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.158.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 34 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.157.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 35 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.157.243
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: img.email1.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 36 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.157.243
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 37 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 172.67.5.14
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 38 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 172.67.5.14
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 39 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 172.67.5.14
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 40 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.22.5.240
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 41 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.22.5.240
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 42 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.22.5.240
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 43 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 44 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.22.4.240
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 45 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 46 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.70.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 47 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.70.206
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 48 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.70.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 49 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.74.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 50 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.74.206
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 51 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.74.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 52 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.72.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 53 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.72.206
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 54 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.72.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 55 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.73.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 56 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.73.206
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 57 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.73.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 58 🇸🇬 rainyfabs [VMess · WS · TLS]
+  server: 104.17.71.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 59 🇸🇬 rainyfabs [VMess · WS · nonTLS]
+  server: 104.17.71.206
+  port: 80
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: go.appannie.com.tencent.jabarvpn.net
+  udp: true
+  xudp: true
+- name: 60 🇸🇬 rainyfabs [VMess · gRPC · TLS]
+  server: 104.17.71.206
+  port: 443
+  type: vmess
+  uuid: d4845e42-6ad7-4baf-a43d-b5701f904b6d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.tencent.jabarvpn.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
