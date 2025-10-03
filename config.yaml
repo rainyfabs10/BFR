@@ -465,6 +465,24 @@ rule-providers:
     url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/config.yaml"
     path: /data/adb/box/clash/config.yaml
     interval: 60
+  proxy_id:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/id.yaml"
+    path: /data/adb/box/clash/proxy_provider/id.yaml
+    interval: 60
+  proxy_sg:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/sg.yaml"
+    path: /data/adb/box/clash/proxy_provider/sg.yaml
+    interval: 60
+  proxy_game:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/game.yaml"
+    path: /data/adb/box/clash/proxy_provider/game.yaml
+    interval: 60
 
 # ======================= #
 # [2] RULES
