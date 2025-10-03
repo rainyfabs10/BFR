@@ -1,0 +1,584 @@
+mode: rule
+allow-lan: true
+bind-address: '*'
+log-level: silent
+unified-delay: true
+geodata-mode: true
+geodata-loader: memconservative
+ipv6: false
+external-controller: 0.0.0.0:9090
+secret: ''
+external-ui: /data/adb/box/clash/metacubexd
+external-ui-url: "https://github.com/Zephyruso/zashboard/archive/gh-pages.zip"
+lgbm-auto-update: true
+lgbm-update-interval: 24
+lgbm-url: "https://github.com/vernesong/mihomo/releases/download/LightGBM-Model/Model.bin"
+profile:
+  store-selected: true
+  store-fake-ip: false
+  smart-collector-size: 100
+find-process-mode: strict
+# geox-url:
+  # geoip: 'https://github.com/MetaCubeX/meta-rules-dat/raw/release/geoip-lite.dat'
+  # mmdb: 'https://github.com/MetaCubeX/meta-rules-dat/raw/release/country-lite.mmdb'
+  # geosite: 'https://github.com/MetaCubeX/meta-rules-dat/raw/release/geosite.dat'
+sniffer:
+  enable: true
+  force-dns-mapping: false
+  parse-pure-ip: false
+  override-destination: false
+  sniff:
+    QUIC:
+      ports:
+      - 443
+    TLS:
+      ports:
+      - 443
+      - 8443
+    HTTP:
+      ports:
+      - 80
+      - 8080-8880
+      override-destination: true
+  sniffing:
+  - tls
+  - http
+  port-whitelist:
+  - 80
+  - 443
+dns:
+  cache-algorithm: arc
+  enable: true
+  prefer-h3: false
+  ipv6: false
+  ipv6-timeout: 300
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.ntp.*'
+    - "*.cn"
+    - "*.china.com"
+  nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 9.9.9.9
+    - 112.215.203.246
+    - 112.215.203.247
+  proxy-server-nameserver:
+    #  - 127.0.0.1:5591
+    #  - 0.0.0.0:5591
+    # - https://doh.pub/dns-query
+    # - 192.168.112.128 #DNS TELKOMSEL
+    # - 192.168.130.30 #DNS TELKOMSEL
+    - 112.215.203.246 #DNS XL
+    - 112.215.203.247 #DNS XL
+    - 112.215.203.248 #DNS XL
+    - 112.215.203.254 #DNS XL
+    - 112.215.198.248 #DNS XL
+    - 112.215.198.254 #DNS XL
+    # - 104.18.213.235 #IP AVA GAME
+    # - 104.18.214.235 #IP AVA GAME
+    # - 104.18.42.238 #IP DF GAME
+    # - 172.64.145.18 #IP DF GAME
+    # - 104.17.70.206 #IP GO FB
+    # - 104.17.74.206 #IP GO FB
+    # - 162.159.130.11 #IP INVESTOR FB
+    # - 162.159.129.11 #IP INVESTOR FB
+    # - 104.18.38.43 #IP VIU
+    # - 172.64.149.213 #IP VIU
+    # - 216.198.54.6 #IP VIU
+    # - 216.198.53.6 #IP VIU
+    # - 104.17.241.25 #IP NETFLIX
+    # - 104.17.237.25 #IP NETFLIX
+    # - 170.114.45.6 #IP XCV
+    # - 170.114.46.6 #IP XCV
+    # - 104.18.213.235 #IP XCV
+    # - 104.18.214.235 #IP XCV
+    - 104.22.4.240 #IP VIDIO
+    - 104.22.5.240 #IP VIDIO
+    - 104.17.105.89 #IP VIDIO
+    - 104.17.103.89 #IP VIDIO
+    - 104.17.106.89 #IP VIDIO
+    - 104.16.230.163 #IP VIDIO
+    - 104.17.70.206 #IP VIDIO
+    - 104.17.71.206 #IP VIDIO  
+    - 104.16.231.163 #IP VIDIO
+    - 104.16.232.163 #IP VIDIO
+    - 13.225.4.107 #IP VIDIO
+    - 172.67.5.14 #IP VIDIO
+    - 104.17.74.206 #IP VIDIO
+    - 104.17.70.206 #IP APPANNIE
+    - 104.17.74.206 #IP APPANNIE
+    - 104.17.72.206 #IP APPANNIE
+    - 104.17.73.206 #IP APPANNIE
+    - 104.17.71.206 #IP APPANNIE
+    - '[2400:9800:2:2::245]' #DNS XL
+    - '[2400:9800:2:2::246]' #DNS XL
+    
+  nameserver-policy:
+    # Vidio-related
+    '*.vidio.com': '1.1.1.1'
+    'quiz.int.vidio.com': '1.1.1.1'
+    'quiz.vidio.com': '1.1.1.1'
+    'nonton.vidio.com': '1.1.1.1'
+    'img.email1.vidio.com': '1.1.1.1'
+    'img.email2.vidio.com': '1.1.1.1'
+    'img.email3.vidio.com': '1.1.1.1'
+  
+    # AppAnnie
+    'go.appannie.com': '1.1.1.1'
+  
+    # Naver Game
+    'ava.game.naver.com': '1.1.1.1'
+    'df.game.naver.com': '1.1.1.1'
+  
+    # Garena/AOV-related
+    'dl.ops.kgid.garenanow.com': '1.1.1.1'
+    'aov.garena.com': '1.1.1.1'
+    '*.garenanow.com': '1.1.1.1'
+    '*.garena.com': '1.1.1.1'
+  
+    # Tencent/HOK-related
+    'com.levelinfinite.sgameGlobal': '1.1.1.1'
+    'sgameglobal.com': '1.1.1.1'
+    '*.sgameglobal.com': '1.1.1.1'
+    '*.globalconnect.com': '1.1.1.1'
+    '*.honorofkings.com': '1.1.1.1'
+    '*.levelinfinite.com': '1.1.1.1'
+  
+    # IP Specific
+    '148.222.67.91': '1.1.1.1'
+    
+  fallback:
+    - https://dns.google/dns-query#UMUM
+    - https://8.8.8.8/dns-query#UMUM
+    - https://cloudflare-dns.com/dns-query#UMUM
+    - https://1.1.1.1/dns-query#UMUM
+  fallback-filter:
+    geoip: false
+
+proxies:
+  
+# ======================= #
+# [1] PROXY GROUPS
+# ======================= #
+proxy-groups:
+  # UMUM MODE
+  - name: "UMUM 🚀"
+    type: select
+    proxies:
+      - "SMART"
+      - "インドネシア 🇮🇩"
+      - "シンガポール 🇸🇬"
+      - "FALLBACK"
+      - "URL-TEST"
+      
+  # GAMING MODE
+  - name: "GAMING 🎮"
+    type: smart
+    proxies:
+      - "GAMING"
+    uselightgbm: true
+    collectdata: true
+    strategy: sticky-sessions
+    sample-rate: 1
+    policy-priority: "GAMING:0.2"
+
+  # Smart untuk UMUM
+  - name: "SMART"
+    type: select
+    proxies:
+      - "インドネシア 🇮🇩"
+      - "シンガポール 🇸🇬"
+
+  # Fallback untuk UMUM
+  - name: "FALLBACK"
+    type: fallback
+    use:
+      - "provide"
+      - "provide2"
+      - "cloud-jdevcloud-id"
+      - "cloud-siren-id"
+      - "cloud-jdevcloud-sg"
+      - "cloud-siren-sg"
+      
+  # URL-Test untuk UMUM
+  - name: "URL-TEST"
+    type: url-test
+    use:
+      - "provide"
+      - "provide2"
+      - "cloud-jdevcloud-id"
+      - "cloud-siren-id"
+      - "cloud-jdevcloud-sg"
+      - "cloud-siren-sg"
+
+  # Proxy untuk Indonesia
+  - name: "インドネシア 🇮🇩"
+    type: smart
+    use:
+      - "provide"
+      - "cloud-jdevcloud-id"
+      - "cloud-siren-id"
+    uselightgbm: true
+    collectdata: true
+    strategy: sticky-sessions
+    sample-rate: 1
+    policy-priority: "インドネシア 🇮🇩:0.5"
+
+  # Proxy untuk Singapura
+  - name: "シンガポール 🇸🇬"
+    type: smart
+    use:
+      - "provide2"
+      - "cloud-jdevcloud-sg"
+      - "cloud-siren-sg"
+    uselightgbm: true
+    collectdata: true
+    strategy: sticky-sessions
+    sample-rate: 1
+    policy-priority: "シンガポール 🇸🇬:2.0"
+
+  # Gaming khusus
+  - name: "GAMING"
+    type: smart
+    use:
+      - "game"
+    uselightgbm: true
+    collectdata: true
+    strategy: sticky-sessions
+    sample-rate: 1
+    policy-priority: "GAMING:0.2"
+
+proxy-providers:
+  "provide":
+    type: file
+    path: ./proxy_provider/id.yaml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Does not support regular expressions, separated by '|', excluded by node type
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 50ms
+
+  "provide2":
+    type: file
+    path: ./proxy_provider/sg.yaml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Does not support regular expressions, separated by '|', excluded by node type
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 50ms
+      
+  "game":
+    type: file
+    path: ./proxy_provider/game.yaml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Does not support regular expressions, separated by '|', excluded by node type
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 30
+      tolerance: 20ms
+
+  "cloud-jdevcloud-id":
+    type: http
+    url: "https://prod-test.jdevcloud.com/api/vmess?cc=id&cdn=true&tls=false&bug=quiz.int.vidio.com&limit=100&format=raw&domain=quiz.int.vidio.com.worker.my.id&subdomain=quiz.int.vidio.com.worker.my.id"
+    interval: 3600
+    path: ./provide/cloud_jdevcloud_id.yaml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Does not support regular expressions, separated by '|', excluded by node type
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 50ms
+      
+  "cloud-jdevcloud-sg":
+    type: http
+    url: "https://prod-test.jdevcloud.com/api/vmess?cc=sg&cdn=true&tls=false&bug=quiz.int.vidio.com&limit=100&format=raw&domain=quiz.int.vidio.com.worker.my.id&subdomain=quiz.int.vidio.com.worker.my.id"
+    interval: 3600
+    path: ./provide/cloud_jdevcloud_sg.yaml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Does not support regular expressions, separated by '|', excluded by node type
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 50ms
+      
+  "cloud-siren-id":
+    type: http
+    url: "https://siren.cloudaccess.host/api/vless?cc=id&cdn=true&tls=true&limit=100&format=clash-provider&domain=jeelsboobz.biz.id&subdomain=quiz.int.vidio.com.jeelsboobz.biz.id&bug=quiz.int.vidio.com"
+    interval: 3600
+    path: ./provide/siren_id.yaml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Does not support regular expressions, separated by '|', excluded by node type
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 50ms
+      
+  "cloud-siren-sg":
+    type: http
+    url: "https://siren.cloudaccess.host/api/vless?cc=sg&cdn=true&tls=true&limit=100&format=clash-provider&domain=jeelsboobz.biz.id&subdomain=quiz.int.vidio.com.jeelsboobz.biz.id&bug=quiz.int.vidio.com"
+    interval: 3600
+    path: ./provide/cloud_siren_sg.yaml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Does not support regular expressions, separated by '|', excluded by node type
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 60
+      tolerance: 50ms
+      
+rule-providers:
+  mrs-geoip-youtube:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/youtube.mrs"
+    format: mrs
+    behavior: ipcidr
+    path: save/geoip-youtube.mrs
+    interval: 36000
+  mrs-geosite-youtube:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"
+    format: mrs
+    behavior: domain
+    path: save/geosite-youtube.mrs
+    interval: 36000
+  mrs-tiktok:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"
+    format: mrs
+    behavior: domain
+    path: save/tiktok.mrs
+    interval: 36000
+  mrs-whatsapp:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/whatsapp.mrs"
+    format: mrs
+    behavior: domain
+    path: save/whatsapp.mrs
+    interval: 36000
+  mrs-spotify:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs"
+    format: mrs
+    behavior: domain
+    path: save/spotify.mrs
+    interval: 36000
+  mrs-instagram:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/instagram.mrs"
+    format: mrs
+    behavior: domain
+    path: save/instagram.mrs
+    interval: 36000
+  mrs-geoip-telegram:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"
+    format: mrs
+    behavior: ipcidr
+    path: save/geoip-telegram.mrs
+    interval: 36000
+  mrs-geosite-telegram:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"
+    format: mrs
+    behavior: domain
+    path: save/geosite-telegram.mrs
+    interval: 36000
+  mrs-geoip-facebook:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/facebook.mrs"
+    format: mrs
+    behavior: ipcidr
+    path: save/geoip-facebook.mrs
+    interval: 36000
+  mrs-geosite-facebook:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/facebook.mrs"
+    format: mrs
+    behavior: domain
+    path: save/geosite-facebook.mrs
+    interval: 36000
+  mrs-netflix:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"
+    format: mrs
+    behavior: domain
+    path: save/netflix.mrs
+    interval: 36000
+  mrs-github:
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"
+    format: mrs
+    behavior: domain
+    path: save/github.mrs
+    interval: 36000
+  mrs-tencent:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tencent.mrs"
+    path: save/tencent.mrs
+    interval: 3600
+  mrs-category-games@cn:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games@cn.mrs"
+    path: save/category-games@cn.mrs
+    interval: 3600
+  mrs-gaming:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.mrs"
+    path: save/gaming.mrs
+    interval: 3600
+  mrs-enhance-gaming:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-enhance-gaming.mrs"
+    path: save/enhance_gaming.mrs
+    interval: 3600
+    #otomatis BFR file
+  config:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-enhance-gaming.mrs"
+    path: /config.yaml
+    interval: 60
+
+
+# ======================= #
+# [2] RULES
+# ======================= #
+rules:
+  # ====================== #
+  # [1] TRAFFIC INTERNAL
+  # ====================== #
+  - IN-TYPE,inner,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+
+  # ====================== #
+  # [2] RULE GAME
+  # ====================== #
+  # Garena/AOV-related
+  - DOMAIN-SUFFIX,garena.com,GAMING 🎮
+  - DOMAIN-SUFFIX,garenanow.com,GAMING 🎮
+  - DOMAIN-SUFFIX,kgid.garenanow.com,GAMING 🎮
+  - DOMAIN-SUFFIX,aov.garena.com,GAMING 🎮
+  - DOMAIN-SUFFIX,garena.co.id,GAMING 🎮
+  - DOMAIN-KEYWORD,garena,GAMING 🎮
+  - DOMAIN-KEYWORD,aov,GAMING 🎮
+  - DOMAIN-KEYWORD,arenaofvalor,GAMING 🎮
+  - DOMAIN-KEYWORD,kgid,GAMING 🎮
+
+  # Tencent/HOK-related
+  - DOMAIN-SUFFIX,tencent.com,GAMING 🎮
+  - DOMAIN-SUFFIX,timistudios.com,GAMING 🎮
+  - DOMAIN-SUFFIX,levelinfinite.com,GAMING 🎮
+  - DOMAIN-SUFFIX,honorofkings.com,GAMING 🎮
+  - DOMAIN-SUFFIX,sgameglobal.com,GAMING 🎮
+  - DOMAIN-SUFFIX,download.sgameglobal.com,GAMING 🎮
+  - DOMAIN-SUFFIX,globalconnect.com,GAMING 🎮
+  - DOMAIN-KEYWORD,levelinfinite,GAMING 🎮
+  - DOMAIN-KEYWORD,honorofkings,GAMING 🎮
+  - DOMAIN-KEYWORD,hok,GAMING 🎮
+  - DOMAIN-KEYWORD,sgameGlobal,GAMING 🎮
+
+  # IP and Process
+  - IP-CIDR,103.247.0.0/24,GAMING 🎮,no-resolve
+  - PROCESS-NAME,com.levelinfinite.sgameGlobal,GAMING 🎮
+  - PROCESS-NAME,com.garena.game.kgid,GAMING 🎮
+
+  # ====================== #
+  # [3] REJECT UDP KHUSUS
+  # ====================== #
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-geosite-youtube)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-geoip-youtube)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-instagram)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-tiktok)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-github)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-netflix)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-spotify)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-whatsapp)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-geosite-facebook)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-geoip-facebook)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-geosite-telegram)),REJECT
+  - AND,((NETWORK,udp),(DST-PORT,443/80),(RULE-SET,mrs-geoip-telegram)),REJECT
+  
+  # ====================== #
+  # [4] RULE UMUM
+  # ====================== #
+  - DOMAIN-SUFFIX,whatsapp.net,インドネシア 🇮🇩
+  - DOMAIN-KEYWORD,telegram,インドネシア 🇮🇩
+  - DOMAIN-SUFFIX,spotify.com,インドネシア 🇮🇩
+  - DOMAIN-KEYWORD,googlevideo,インドネシア 🇮🇩
+  - DOMAIN-KEYWORD,dropbox,インドネシア 🇮🇩
+  - DOMAIN-SUFFIX,line.me,インドネシア 🇮🇩
+  - RULE-SET,mrs-tiktok,インドネシア 🇮🇩
+  - RULE-SET,mrs-github,インドネシア 🇮🇩
+  - RULE-SET,mrs-netflix,インドネシア 🇮🇩
+  - RULE-SET,mrs-geosite-youtube,インドネシア 🇮🇩
+  - RULE-SET,mrs-geoip-youtube,インドネシア 🇮🇩,no-resolve
+  - RULE-SET,mrs-instagram,インドネシア 🇮🇩
+  - RULE-SET,mrs-whatsapp,インドネシア 🇮🇩
+  - RULE-SET,mrs-spotify,インドネシア 🇮🇩
+  - RULE-SET,mrs-geoip-telegram,インドネシア 🇮🇩,no-resolve
+  - RULE-SET,mrs-geosite-telegram,インドネシア 🇮🇩
+  - RULE-SET,mrs-geoip-facebook,インドネシア 🇮🇩,no-resolve
+  - RULE-SET,mrs-geosite-facebook,インドネシア 🇮🇩
+
+  # ====================== #
+  # [5] AUTO-REJECT NON-GAME SAAT GAMING MODE AKTIF
+  # ====================== #
+  - RULE-SET,mrs-tencent,GAMING 🎮
+  - RULE-SET,mrs-category-games@cn,GAMING 🎮
+  - RULE-SET,mrs-gaming,GAMING 🎮
+  - RULE-SET,mrs-enhance-gaming,GAMING 🎮
+  
+  # ====================== #
+  # [6] FINAL RULE
+  # ====================== #
+  - MATCH,UMUM 🚀
+
+keep-alive-interval: 15
+geo-auto-update: false
+geo-update-interval: 24
+global-client-fingerprint: none
+tcp-concurrent: false
+tun:
+  exclude-package: []
+  enable: false
+  mtu: 9000
+  device: box
+  stack: mixed
+  dns-hijack:
+    - 0.0.0.0:53
+  auto-route: true
+  strict-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+tproxy-port: 9898
+redir-port: 9797
