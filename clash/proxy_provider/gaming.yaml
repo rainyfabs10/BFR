@@ -1,0 +1,2135 @@
+proxies:
+#Proxy Vidio
+- name: 1 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: sing-box.web.id
+  udp: true
+  xudp: true
+- name: 2 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: quiz.int.vidio.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: sing-box.web.id
+  udp: true
+  xudp: true
+- name: 3 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 4 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: quiz.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: quiz.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 5 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: quiz.vidio.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: quiz.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 6 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: quiz.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 7 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: nonton.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: nonton.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: nonton.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 8 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: nonton.vidio.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: nonton.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 9 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: nonton.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: nonton.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 10 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: img.email1.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 11 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: img.email1.vidio.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 12 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: img.email1.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 13 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: img.email2.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email2.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email2.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 14 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: img.email2.vidio.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email2.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 15 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: img.email2.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email2.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 16 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: img.email3.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email3.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email3.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 17 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: img.email3.vidio.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email3.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 18 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: img.email3.vidio.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email3.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 19 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: go.appannie.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 20 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: go.appannie.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 21 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: go.appannie.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 22 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.159.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 23 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.159.243
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 24 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.159.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 25 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.155.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 26 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.155.243
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 27 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.155.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 28 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.156.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 29 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.156.243
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 30 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.156.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 31 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.158.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 32 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.158.243
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 33 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.158.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 34 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.157.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 35 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.157.243
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: img.email1.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 36 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.157.243
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: img.email1.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 37 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 172.67.5.14
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: quiz.int.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 38 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 172.67.5.14
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: quiz.int.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 39 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 172.67.5.14
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 40 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.22.5.240
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: quiz.int.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 41 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.22.5.240
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: quiz.int.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 42 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.22.5.240
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 43 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: quiz.int.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 44 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.22.4.240
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: quiz.int.vidio.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 45 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: quiz.int.vidio.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 46 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.70.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 47 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.70.206
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 48 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.70.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 49 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.74.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 50 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.74.206
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 51 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.74.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 52 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.72.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 53 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.72.206
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 54 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.72.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 55 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.73.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 56 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.73.206
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 57 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.73.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 58 🎮 rainyfabs vidio [VMess · WS · TLS]
+  server: 104.17.71.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 59 🎮 rainyfabs vidio [VMess · WS · nonTLS]
+  server: 104.17.71.206
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: go.appannie.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 60 🎮 rainyfabs vidio [VMess · gRPC · TLS]
+  server: 104.17.71.206
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: go.appannie.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+#Proxy Edukasi
+- name: 1 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: app.midtrans.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: app.midtrans.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: app.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 2 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: app.midtrans.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: app.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 3 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: app.midtrans.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: app.midtrans.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 4 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 141.193.213.20
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: zoomcares.zoom.us.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: zoomcares.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 5 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 141.193.213.20
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: zoomcares.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 6 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 141.193.213.20
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: zoomcares.zoom.us.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 7 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 141.193.213.21
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: zoomcares.zoom.us.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: zoomcares.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 8 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 141.193.213.21
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: zoomcares.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 9 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 141.193.213.21
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: zoomcares.zoom.us.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 10 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 11 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: gomarketplacecontent-cf.zoom.us
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 12 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 13 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.18.29.141
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 14 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.18.29.141
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 15 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.18.29.141
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 16 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.18.28.141
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 17 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.18.28.141
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 18 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.18.28.141
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: gomarketplacecontent-cf.zoom.us.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 19 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: api.midtrans.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: api.midtrans.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: api.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 20 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: api.midtrans.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: api.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 21 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: api.midtrans.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: api.midtrans.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 22 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.21.24.201
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: api.midtrans.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: api.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 23 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.21.24.201
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: api.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 24 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.21.24.201
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: api.midtrans.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 25 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 172.67.220.126
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: api.midtrans.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: api.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 26 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 172.67.220.126
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: api.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 27 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 172.67.220.126
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: api.midtrans.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 28 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: cdn.udemy.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cdn.udemy.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: cdn.udemy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 29 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: cdn.udemy.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: cdn.udemy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 30 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: cdn.udemy.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cdn.udemy.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 31 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.16.143.237
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cdn.udemy.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: cdn.udemy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 32 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.16.143.237
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: cdn.udemy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 33 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.16.143.237
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cdn.udemy.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 34 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.16.142.237
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cdn.udemy.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: cdn.udemy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 35 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.16.142.237
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: cdn.udemy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 36 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.16.142.237
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: cdn.udemy.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 37 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: chat.sociomile.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: chat.sociomile.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: chat.sociomile.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 38 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: chat.sociomile.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: chat.sociomile.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 39 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: chat.sociomile.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: chat.sociomile.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 40 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 172.67.139.182
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: chat.sociomile.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: chat.sociomile.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 41 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 172.67.139.182
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: chat.sociomile.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 42 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 172.67.139.182
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: chat.sociomile.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 43 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.21.8.162
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: chat.sociomile.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: chat.sociomile.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 44 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.21.8.162
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: chat.sociomile.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 45 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.21.8.162
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: chat.sociomile.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 46 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: www.skillacademy.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.skillacademy.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: www.skillacademy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 47 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: www.skillacademy.com
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: www.skillacademy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 48 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: www.skillacademy.com
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.skillacademy.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 49 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.22.23.133
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.skillacademy.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: www.skillacademy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 50 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.22.23.133
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: www.skillacademy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 51 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.22.23.133
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.skillacademy.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 52 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.22.22.133
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.skillacademy.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: www.skillacademy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 53 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.22.22.133
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: www.skillacademy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 54 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.22.22.133
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.skillacademy.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 55 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 172.67.23.144
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.skillacademy.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: www.skillacademy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 56 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 172.67.23.144
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: www.skillacademy.com.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 57 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 172.67.23.144
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: www.skillacademy.com.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 58 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: test.noice.id
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test.noice.id.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test.noice.id.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 59 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: test.noice.id
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test.noice.id.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 60 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: test.noice.id
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test.noice.id.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 61 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 172.67.167.175
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test.noice.id.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test.noice.id.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 62 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 172.67.167.175
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test.noice.id.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 63 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 172.67.167.175
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test.noice.id.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 64 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.21.41.224
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test.noice.id.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test.noice.id.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 65 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.21.41.224
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test.noice.id.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 66 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.21.41.224
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test.noice.id.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 67 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: test-url.noiceid.cc
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test-url.noiceid.cc.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test-url.noiceid.cc.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 68 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: test-url.noiceid.cc
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test-url.noiceid.cc.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 69 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: test-url.noiceid.cc
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test-url.noiceid.cc.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 70 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 172.67.222.188
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test-url.noiceid.cc.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test-url.noiceid.cc.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 71 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 172.67.222.188
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test-url.noiceid.cc.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 72 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 172.67.222.188
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test-url.noiceid.cc.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 73 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.21.94.111
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test-url.noiceid.cc.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test-url.noiceid.cc.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 74 🎮 rainyfabs edukasi [VMess · WS · nonTLS]
+  server: 104.21.94.111
+  port: 80
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: test-url.noiceid.cc.sing-box.web.id
+  udp: true
+  xudp: true
+- name: 75 🎮 rainyfabs edukasi [VMess · gRPC · TLS]
+  server: 104.21.94.111
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: test-url.noiceid.cc.sing-box.web.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess-service
+  udp: true
+  xudp: true
+- name: 76 🎮 rainyfabs edukasi [VMess · WS · TLS]
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 306ec330-49bd-4987-b5a1-e3bd39bdc31e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: app.midtrans.com.sing-box.web.id
+  network: ws
+  ws-opts:
+    path: /in-depth-tricks-to-future-of-tech/buy-vmess-ws-pm-telegram-at-synricha
+    headers:
+      Host: app.midtrans.com.sing-box.web.id
+  udp: true
+  xudp: true
