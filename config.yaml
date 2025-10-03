@@ -463,9 +463,8 @@ rule-providers:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/config.yaml"
-    path: /config.yaml
+    path: /data/adb/box/clash/config.yaml
     interval: 60
-
 
 # ======================= #
 # [2] RULES
