@@ -462,7 +462,7 @@ rule-providers:
   config:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/rainyfabs10/BFR/refs/heads/main/config.yaml"
+    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/config.yaml"
     path: /config.yaml
     interval: 60
 
