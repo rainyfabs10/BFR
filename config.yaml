@@ -57,7 +57,7 @@ dns:
     - 8.8.8.8
   listen: 0.0.0.0:1053
   use-hosts: true
-  enhanced-mode: fake-ip
+  enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
