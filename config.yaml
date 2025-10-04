@@ -6,6 +6,8 @@ unified-delay: true
 geodata-mode: true
 geodata-loader: memconservative
 ipv6: false
+config-update-interval: 60 
+config-update-url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/config.yaml"
 external-controller: 0.0.0.0:9090
 secret: ''
 external-ui: /data/adb/box/clash/metacubexd
@@ -258,7 +260,9 @@ proxy-groups:
 
 proxy-providers:
   "provide":
-    type: file
+    type: http
+    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/id.yaml"
+    interval: 3600
     path: ./proxy_provider/id.yaml
     # filter: 'xxx' # Supports regular expressions to filter by node name
     # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
@@ -270,7 +274,8 @@ proxy-providers:
       tolerance: 50ms
 
   "provide2":
-    type: file
+    type: http
+    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/sg.yaml"
     path: ./proxy_provider/sg.yaml
     # filter: 'xxx' # Supports regular expressions to filter by node name
     # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
@@ -282,7 +287,8 @@ proxy-providers:
       tolerance: 50ms
       
   "game":
-    type: file
+    type: http
+    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/game.yaml"
     path: ./proxy_provider/game.yaml
     # filter: 'xxx' # Supports regular expressions to filter by node name
     # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
@@ -439,50 +445,25 @@ rule-providers:
     behavior: domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tencent.mrs"
     path: save/tencent.mrs
-    interval: 3600
+    interval: 36000
   mrs-category-games@cn:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games@cn.mrs"
     path: save/category-games@cn.mrs
-    interval: 3600
+    interval: 36000
   mrs-gaming:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.mrs"
     path: save/gaming.mrs
-    interval: 3600
+    interval: 36000
   mrs-enhance-gaming:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-enhance-gaming.mrs"
     path: save/enhance_gaming.mrs
-    interval: 3600
-    #otomatis BFR file
-  config:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/config.yaml"
-    path: /data/adb/box/clash/config.yaml
-    interval: 60
-  proxy_id:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/id.yaml"
-    path: /data/adb/box/clash/proxy_provider/id.yaml
-    interval: 60
-  proxy_sg:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/sg.yaml"
-    path: /data/adb/box/clash/proxy_provider/sg.yaml
-    interval: 60
-  proxy_game:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/rainyfabs10/box/clash/proxy_provider/game.yaml"
-    path: /data/adb/box/clash/proxy_provider/game.yaml
-    interval: 60
+    interval: 36000
 
 # ======================= #
 # [2] RULES
